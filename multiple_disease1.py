@@ -14,22 +14,22 @@ from streamlit_option_menu import option_menu
 #diabetes_model = pickle.load(open('D:/Multiple Disease Prediction/saved_modules/diabetes_model.sav'))
 #heart_disease_model = pickle.load(open('D:/Multiple Disease Prediction/saved_modules/heart_disease_model.sav'))
 #parkinsons_disease_model = pickle.load(open('D:/Multiple Disease Prediction/saved_modules/parkinsons_disease_model.sav'))
-with open('D:/Multiple Disease Prediction/saved_modules/diabetes_model1.sav', 'rb') as file:
-    diabetes_model = pickle.load(file)
+#with open('D:/Multiple Disease Prediction/saved_modules/diabetes_model1.sav', 'rb') as file:
+    #diabetes_model = pickle.load(file)
 
-with open('D:/Multiple Disease Prediction/saved_modules/heart_disease_model1.sav', 'rb') as file:
-    heart_disease_model = pickle.load(file)
+#with open('D:/Multiple Disease Prediction/saved_modules/heart_disease_model1.sav', 'rb') as file:
+    #heart_disease_model = pickle.load(file)
 
-with open('D:/Multiple Disease Prediction/saved_modules/parkinsons_disease_model.sav', 'rb') as file:
-    parkinsons_disease_model = pickle.load(file)
+#with open('D:/Multiple Disease Prediction/saved_modules/parkinsons_disease_model.sav', 'rb') as file:
+#parkinsons_disease_model = pickle.load(file)
 
 # loading the saved models
 
-#diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
 
-#heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
+heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
-#parkinsons_model = pickle.load(open('parkinsons_disease_model.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons_disease_model.sav', 'rb'))
 
 
 # Sidebar for navigation

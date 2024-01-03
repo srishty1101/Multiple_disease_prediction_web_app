@@ -237,19 +237,19 @@ if (selected == 'Parkinsons Prediction'):
     col1, col2, col3, col4, col5 = st.columns(5)  
     
     with col1:
-        fo = st.text_input('MDVP:Fo(Hz)')
+        fo = st.text_input('MDVP Fo(Hz)')
         
     with col2:
-        fhi = st.text_input('MDVP:Fhi(Hz)')
+        fhi = st.text_input('MDVP Fhi(Hz)')
         
     with col3:
-        flo = st.text_input('MDVP:Flo(Hz)')
+        flo = st.text_input('MDVP Flo(Hz)')
         
     with col4:
-        Jitter_percent = st.text_input('MDVP:Jitter(%)')
+        Jitter_percent = st.text_input('MDVP Jitter(%)')
         
     with col5:
-        Jitter_Abs = st.text_input('MDVP:Jitter(Abs)')
+        Jitter_Abs = st.text_input('MDVP Jitter(Abs)')
         
     with col1:
         RAP = st.text_input('MDVP RAP')
@@ -273,10 +273,10 @@ if (selected == 'Parkinsons Prediction'):
         APQ5 = st.text_input('Shimmer APQ5')
         
     with col3:
-        APQ = st.text_input('MDVP:APQ')
+        APQ = st.text_input('MDVP APQ')
         
     with col4:
-        DDA = st.text_input('Shimmer:DDA')
+        DDA = st.text_input('Shimmer DDA')
         
     with col5:
         NHR = st.text_input('NHR')
